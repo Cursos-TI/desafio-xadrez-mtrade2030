@@ -42,6 +42,18 @@ int main() {
     }  while (contador_bispo < bispo);
 
 
+    printf("\n--- Movimentacao do Cavalo ---\n");
+    printf("O cavalo se move 2 casas para baixo e 1 casa para esquerda.\n");
+    int cavalo = 1; // controlar o movimento cavalo L
+
+    while (cavalo--)
+    {
+        for ( int i = 0; i <2; i++)
+        {
+            printf("Baixo\n"); // imprime Cima
+        }
+        printf("Esquerda\n"); // imprime direita
+    }
     
 
 
